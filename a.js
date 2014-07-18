@@ -1,12 +1,14 @@
 'use strict';
 
+// a.js
+
 var b = require('./b');
 
-var c = require('./c');
+// var c = require('./c');
 
 var api = {};
 
-c.init();
+// c.init();
 
 console.log('a.js');
 
